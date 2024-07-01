@@ -1,4 +1,4 @@
-## Olá, me chamo Bryan Feiten!
+## 👋 Olá, me chamo Bryan Feiten!
 
 - Atuo há pouco mais de 2 anos como Desenvolvedor Mobile, já participei da construção de alguns projetos. Desde a concepção até a publicação.
 - Trabalho principalmente com Flutter, mas também já precisei implementar código nativo (Swift e Kotlin) para lidar com funcionalidades de Bluetooth, GPS e comunicações com SDKs.
