@@ -1,11 +1,24 @@
-## Hello World! Eu sou o Bryan Feiten
+## Olá, me chamo Bryan Feiten!
 
-- Atualmente trabalho como Desenvolvedor Full-Stack na Growdev e também como Tech-Helper, dando suporte na parte de back-end para as novas turmas do Programa de formação
-- Atuo principalmente no bakc-end utilizando Node com Typescript e no front-end Mobile escrevendo códigos em Dart com o framework Flutter
-- Estou no início do curso de Sistemas de Informação. Onde aprendemos os conceitos básicos de algoritmos utilizando a Linguagem C
-- Também estou finalizando o curso Starter - Full Stack Web Developer da Growdev, onde durante 1 ano aprendemos algumas das tecnologias mais usadas no mercado Tech, como JavaScript, Typescript, Postgres, Redis, React, Jest, Swagger e Kanban.
+- Atuo há pouco mais de 2 anos como Desenvolvedor Mobile, já participei da construção de alguns projetos. Desde a concepção até a publicação.
+- Trabalho principalmente com Flutter, mas também já precisei implementar código nativo (Swift e Kotlin) para lidar com funcionalidades de Bluetooth, GPS e comunicações com SDKs.
+- Apesar de lidar mais com front-end mobile, também atuo como desenvolvedor back-end com NodeJS e Typescript.
 
-##
+### Dentre os projetos que participei, vou deixar algumas das partes mais interessantes:
+- Aplicativo SmartHome feito em Flutter, onde atuei inicialmente com a comunicação com o SDK nativo de uma terceira empresa utilizando Swift. Após isso, o projeto migrou quase que totalmente para Flutter. Então criamos uma solução própria para lidar com as comunicações automações e toda a configuração de firmware. Ficando assim com os seguintes protocolos de comunicação:
+  - Mqtt (IoT)
+  - Bluetooth
+  - Restful APIs
+  - Código nativo para Method e Event Channels
+
+- Desenvolvi um app que dou suporte atualmente para permitir que inspetores da empresa parceira revisem produtos na China e enviem os dados (documentos, imagens, anotações e status de aprovação). Este app é responsável por lidar com grandes quantias de dados, e trabalha com conceitos de Offline first, visto que algumas localizades não possuem boa conexão com a internet na China. Um dos problemas iniciais que enfrentamos foi de não ter um feedback satisfatório dos usuários, então implementei ferramentas de análise de quebras e monitoramento de performance, afim de solucionar os erros antes mesmo que fossem reportados por mensagem.
+- Um dos outros projetos que atuei foi interno, onde tive que implementar Testes de Interface (os famosos Golden Tests) inteiramente em caixa preta, afim de testar atividades de maneira prática e automatizada, importando apenas o projeto e interagindo com a tela conforme esperado.
+
+**Key Stacks**: Flutter, NodeJS, Android, iOS, SQL, Docker, CI/CD, AWS, IoT, Automated Tests 
+
+#### Obs: Esse Github é bem parado pois para trabalho utilizo outro. Esse fica mais para POCs e estudos
+
+---
 
 <div>
   <a href="https://beacons.ai/bryanfeiten">
@@ -16,27 +29,14 @@
 </div>
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="Bryan-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Bryan-Dart" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg">
-  <img align="center" alt="Bryan-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Bryan-C" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
-  <img align="center" alt="Bryan-Node.JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="Bryan-Jest.JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
   <img align="center" alt="Bryan-Flutter" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg">
-  <img align="center" alt="Bryan-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Bryan-Electron" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg">
+  <img align="center" alt="Bryan-Node.JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Bryan-Dart" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg">
+  <img align="center" alt="Bryan-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Bryan-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
 
-##
-
-<div>
-  <h4>Meu Github de trabalho</h4>
-  <a href="https://github.com/bryan-growdev">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</div>
-
-##
+---
 
 <div>
   <a href="mailto:bryan.felipe.feiten@gmail.com">
@@ -46,5 +46,3 @@
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
   </a>
 </div>
-
-![Snake animation](https://github.com/bryanfeiten/bryanfeiten/blob/output/github-contribution-grid-snake.svg)
