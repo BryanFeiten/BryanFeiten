@@ -1,29 +1,38 @@
-## 👋 Olá, me chamo Bryan Feiten!
+# 👋 Hi, I'm Bryan Feiten
 
-- Atuo há quase 3 anos como Desenvolvedor Mobile.
-- Trabalho principalmente com Flutter, mas também já precisei implementar código nativo (Swift e Kotlin) para lidar com funcionalidades de Bluetooth, GPS e SDKs nativos.
-- Atuo principalmente com a área mobile, mas também participo ativamente do back-end dos projetos, onde utilizamos tecnologias como NodeJS e Typescript.
+**Mid-level Mobile Software Engineer | Flutter & Kotlin | IoT & Accessibility**
 
-### Como não posso compartilhar partes de projetos em andamento, deixarei aqui algumas funcionalidades que fiquei responsábel pela implementação:
-- Aplicativo SmartHome, onde atuei inicialmente com a comunicação com o SDK nativo de uma terceira empresa utilizando Swift. Após isso, por conta de limitações do SDK e necessidades do cliente, o projeto migrou totalmente para uma solução prórpia, para lidar com as automações e toda a comunicação com o firmware que o cliente desejava adicionar. Ficando assim com os seguintes protocolos de comunicação:
-  - Mqtt (utilizando o IoT Core da AWS).
-  - Bluetooth (Utilizando o protocolo de comunicação de baixa energia (Bluetooth Low Energy / BLE)).
-  - Restful APIs.
-  - Código nativo para Method e Event Channels onde precisamos criar gatilhos com base na localização do usuário.
-Também tivemos funcionalidades ainda mais complexas, como o espelhamento de estado entre dispositivos, automações baseadas em estado, clima ou programações do usuário e outras coisas como utilizar a localização da casa do usuário para verificações de permissionamento, compartilhamento, limitações baseadas no timezone da casa e do usuário, etc...
+I am a Software Engineer with over 4 years of experience building scalable, performant, and secure mobile ecosystems. My core day-to-day expertise lies in **Flutter** and modern native Android development (**Kotlin, Jetpack Compose**). I specialize in bridging the gap between mobile interfaces and complex IoT infrastructures, always focusing on architectural efficiency, cloud cost optimization, and inclusive UX. 
 
-- Desenvolvi um app que dou suporte atualmente para permitir que inspetores da empresa parceira revisem produtos na China e enviem os dados (documentos, imagens, anotações e avaliações). Este app é responsável por lidar com grandes quantias de dados, e trabalha com conceitos de Offline first, visto que algumas localizades não possuem boa conexão com a internet na China. Um dos problemas iniciais que enfrentamos foi de não ter um feedback satisfatório dos usuários, então implementei ferramentas de análise de falhas e monitoramento de performance, afim de solucionar os erros antes mesmo que fossem reportados por mensagem.
-- Um dos outros projetos que atuei foi interno, onde tive que implementar Testes de Interface (os famosos Golden Tests) inteiramente em caixa preta, afim de testar atividades de maneira prática e automatizada, importando apenas o projeto e interagindo com a tela conforme esperado.
-
-**Key Stacks**: Flutter, NodeJS, Android, iOS, SQL, Docker, CI/CD, AWS, IoT, Automated Tests, IoT Core.
+While my hands-on focus is strictly mobile, I possess a strong systemic view of backend architectures (Node.js/TypeScript), allowing me to actively review code, discuss scalability patterns, and ensure seamless frontend-to-backend integrations.
 
 ---
 
-<div>
-  <a href="mailto:bryan.felipe.feiten@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
-  </a>
-  <a href="https://www.linkedin.com/in/BryanFeiten" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-  </a>
-</div>
+### 🚀 High-Impact Mobile Engineering (Selected Experience)
+
+* 🏠 **Smart Home & IoT Ecosystem:** * **Architecture & FinOps:** Spearheaded the mobile architecture for a large-scale Smart Home platform. Reduced AWS IoT Core messaging costs by **60%** by refactoring the MQTT architecture from a constant-polling model to an event-driven Request-Response protocol.
+    * **Hardware Integration:** Handled complex BLE (Bluetooth Low Energy) and MQTT integrations. Led the transition to secure, encrypted Socket connections with native authentication headers for Wi-Fi provisioning.
+    * **DevOps:** Implemented full mobile CI/CD pipelines and established a multi-environment release strategy (Dev, Staging via App Distribution, Prod via TestFlight/Play Store).
+
+* ♿ **AliaInclui (Accessibility & Social Impact):** * Developed core mobile features for a highly publicized app (featured in national media in partnership with Nestlé) focused on assisting visually impaired users.
+    * Implemented advanced native accessibility using Flutter Semantics, optimizing UX for TalkBack and VoiceOver, alongside OCR/barcode scanning integrations.
+
+* 🏭 **Enterprise Quality Control Platform (China Operations):** * Built an end-to-end inspection app from scratch, handling large data payloads, image processing, and secure MSAL (Microsoft) authentication.
+    * Engineered a robust **Offline-First** architecture to ensure data integrity in areas with poor connectivity. The technical maturity of this delivery directly facilitated the closing of two new backend contracts for the company.
+
+* 🎓 **Automated Evaluation System (EdTech & QA):** * Engineered a fully automated black-box UI testing pipeline using **Golden Tests** to evaluate student code submissions. This system automatically runs UI tests against student-developed apps at the end of course modules, calculates their final grades, and drastically reduces human intervention and manual review time.
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+* **Core Mobile:** Flutter, Dart, Kotlin, Jetpack Compose, Swift (Basics)
+* **Mobile Architecture:** Offline-first, Automated UI Testing, OWASP Mobile Security, WCAG Accessibility
+* **Hardware & Protocols:** MQTT, BLE, WebSockets, REST APIs, mDNS
+* **Systemic Backend & Cloud:** Node.js, TypeScript, SQL, AWS IoT Core (Integration focus)
+* **DevOps:** CI/CD for Mobile, App Distribution, TestFlight, Play Store
+
+---
+
+### 📫 Let's Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bryanfeiten)
